@@ -105,6 +105,7 @@ hr{
 
 .videos{
     background-color: #f9f9f9;
+    width: 50%;
     height: 100%;
     padding: 15px 15px;
     border-top: 1px solid #ddd;

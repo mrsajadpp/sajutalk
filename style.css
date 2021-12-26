@@ -129,7 +129,7 @@ hr{
 }
 
 .thumbnail{
-    width: 250px;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     alighn-items: center;
@@ -152,7 +152,7 @@ hr{
 }
 
 .title{
-    width: 300px;
+    width: 200px;
     height: 40px;
     margin-right: 800px;
 }

@@ -77,7 +77,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    margin-top: 7px;
+    margin-top: 150px;
 }
 .sidebar-category{
     display: flex;

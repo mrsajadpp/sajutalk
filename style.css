@@ -136,13 +136,14 @@ h1{
     flex-wrap: wrap;
 }
 .video{
-    width: 400px;
-    margin-right: 10px;
+    width: 3100px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 .thumbnail{
     width: 100%;
-    height: 100px;
+    height: 170px;
 }
 .thumbnail img{
     object-fit: cover;

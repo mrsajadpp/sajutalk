@@ -34,21 +34,16 @@ const getChannelIcon = (video_data) => {
 const makeVideoCard = (data) => {
     videoCardContainer.innerHTML += `
     <div class="video" onclick="location.href = 'https://youtube.com/watch?v=${data.id}'">
-               <div class="video-thumbnail">
-                   <img src="${data.snippet.thumbnails.high.url}" alt="">
-               </div>
-
-               <div class="video-details">
-                   <div class="author">
-                       <img src="${data.channelThumbnail}" alt="">
-                   </div>
-                   <div class="title">
-                       <h3>${data.snippet.title}</h3>
-                       <a href="">${data.snippet.channelTitle}</a>
-                       <span></span>
-                   </div>
-               </div>
-                </div>
+                <div class="video"onclick="location.href = 'https://youtube.com/watch?v=${data.id}'" >
+        <img src="${data.snippet.thumbnails.high.url}" class="thumbnail" alt="">
+        <div class="content">
+            <img src="${data.channelThumbnail}" class="channel-icon" alt="">
+            <div class="info">
+                <h4 class="title">${data.snippet.title}</h4>
+                <p class="channel-name"${data.snippet.channelTitle}></p>
+            </div>
+        </div>
+    </div>
     `;
 }
 const searchInput = document.querySelector('.search-bar');

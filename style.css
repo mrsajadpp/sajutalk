@@ -163,7 +163,7 @@ hr{
 }
 .categorynn a{
     text-decoration: none;
-    color: rgb(96, 96, 96);
+    color: black;
 }
 @media (max-width:425px){
    .header-search{

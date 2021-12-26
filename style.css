@@ -152,9 +152,11 @@ hr{
 }
 
 .title{
-    width: 200px;
+    width: 230px;
     height: 40px;
-    margin-right: 800px;
+    margin-right: 910px;
+    font-size: 16px;
+    margin-top:-8px;
 }
 
 .channel-name{

@@ -120,7 +120,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-gap: 20px 5px;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 .video{

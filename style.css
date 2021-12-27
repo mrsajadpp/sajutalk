@@ -73,6 +73,15 @@ body{
     background-color: white;
     overflow-y: scroll;
 }
+.sidebar{
+    display: none;
+}
+.show-sidebar{
+        display: inline;
+        position: fixed;
+        top: 3.4rem;
+        height: 100%;
+    }
 .sidebar-categories{
     width: 100%;
     display: flex;

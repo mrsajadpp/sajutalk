@@ -188,42 +188,6 @@ hr{
     color: #000;
     text-decoration: none;
 }
-@media (max-width:425px){
-   .header-search{
-       display: none;
-   } 
-   .header-right .material-icons{
-       display: none;
-   }
-   .header-right .display-this{
-       display: inline;
-   }
-   .sidebar{
-       display: none;
-   }
-    .thumbnail{
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
-    alighn-items: center;
-    margin-left: 10px;
-    }
-    .channel-icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 0px;
-}
-
-    .title{
-    width: 400px;
-    height: 20px;
-    margin-right: 2000px;
-    font-size: 14px;
-    margin-top:-0px;
-    }
-}
 @media (max-width:768px) {
     .header-search{
         display: none;
@@ -281,38 +245,42 @@ hr{
         width: 300px;
     }
 }
-@media (max-width: 320px){
-    .videos{
-    background-color: #f9f9f9;
-    width: 100%;
-    height: 100%;
-    padding: 10px 10px;
-    border-top: 1px solid #ddd;
-    overflow-x: hidden;
-    }
+@media (max-width:425px){
+   .header-search{
+       display: none;
+   } 
+   .header-right .material-icons{
+       display: none;
+   }
+   .header-right .display-this{
+       display: inline;
+   }
+   .sidebar{
+       display: none;
+   }
     .thumbnail{
-    width: 300px;
+    width: 400px;
     height: 200px;
     object-fit: cover;
     alighn-items: center;
-    margin-left: -25px;
+    margin-left: 10px;
     }
     .channel-icon{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: -30px;
+    margin-left: 0px;
 }
 
     .title{
-    width: 255px;
+    width: 400px;
     height: 20px;
     margin-right: 2000px;
     font-size: 14px;
     margin-top:-0px;
     }
-    }
+}
 @media (max-width: 375px){
     .videos{
     background-color: #f9f9f9;
@@ -345,3 +313,37 @@ hr{
     margin-top:-0px;
     }
 }
+@media (max-width: 320px){
+    .videos{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    border-top: 1px solid #ddd;
+    overflow-x: hidden;
+    }
+    .thumbnail{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    alighn-items: center;
+    margin-left: -25px;
+    }
+    .channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -30px;
+}
+
+    .title{
+    width: 255px;
+    height: 20px;
+    margin-right: 2000px;
+    font-size: 14px;
+    margin-top:-0px;
+    }
+    }
+
+

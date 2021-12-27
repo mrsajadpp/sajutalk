@@ -55,7 +55,9 @@ body{
 .imgheader{
     width: 100px;
 }
-
+#menu{
+    cursor: pointer;
+}
 
 /*Mainbody*/
 

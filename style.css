@@ -74,7 +74,7 @@ body{
     width: 230px;
     background-color: white;
     overflow-y: scroll;
-    margin-top: 49px;
+    margin-top: 10px;
     display: none;
 }
 .show-sidebar{
@@ -212,7 +212,7 @@ hr{
     }.show-sidebar{
         display: inline;
         position: fixed;
-        top: 4.4rem;
+        top: 3.4rem;
         height: auto;
     }
     .videos{

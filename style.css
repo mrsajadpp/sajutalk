@@ -172,7 +172,7 @@ hr{
     height: 40px;
     margin-right: 910px;
     font-size: 16px;
-    margin-top:-8px;
+    margin-top:-0px;
 }
 
 .channel-name{
@@ -201,6 +201,28 @@ hr{
    .sidebar{
        display: none;
    }
+    .thumbnail{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    alighn-items: center;
+    margin-left: 10px;
+    }
+    .channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0px;
+}
+
+    .title{
+    width: 400px;
+    height: 20px;
+    margin-right: 2000px;
+    font-size: 14px;
+    margin-top:-0px;
+    }
 }
 @media (max-width:768px) {
     .header-search{
@@ -246,6 +268,29 @@ hr{
     border-top: 1px solid #ddd;
     overflow-x: hidden;
     }
+    .thumbnail{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    alighn-items: center;
+    margin-left: -25px;
+    }
+    .channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -30px;
+}
+
+    .title{
+    width: 255px;
+    height: 20px;
+    margin-right: 2000px;
+    font-size: 14px;
+    margin-top:-0px;
+    }
+    }
 @media (max-width: 375px){
     .videos{
     background-color: #f9f9f9;
@@ -254,4 +299,27 @@ hr{
     padding: 10px 35px;
     border-top: 1px solid #ddd;
     overflow-x: hidden;
+    }
+    .thumbnail{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    alighn-items: center;
+    margin-left: -20px;
+    }
+    .channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -30px;
+}
+
+    .title{
+    width: 255px;
+    height: 20px;
+    margin-right: 2000px;
+    font-size: 14px;
+    margin-top:-0px;
+    }
 }

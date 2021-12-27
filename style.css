@@ -72,8 +72,7 @@ body{
     width: 230px;
     background-color: white;
     overflow-y: scroll;
-}
-.sidebar{
+    margin-top: 49px;
     display: none;
 }
 .show-sidebar{
@@ -204,6 +203,7 @@ hr{
 @media (max-width:768px) {
     .header-search{
         display: none;
+         margin-top: -5px;
     }
     .sidebar{
         display: none;

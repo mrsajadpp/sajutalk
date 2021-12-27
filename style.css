@@ -206,6 +206,14 @@ hr{
     padding: 1px 10px;
     border-top: 1px solid #ddd;
     overflow-x: hidden;
+    }
+    .sidebar-categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
 }
 @media(max-width: 871px){
     .header-search input{
